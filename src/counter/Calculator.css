@@ -1,0 +1,31 @@
+.calculator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    background-color: rgb(44, 24, 55);
+    width: 20vw;
+    height: 15vh;
+    border: 5px solid lightseagreen;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    color: rgb(52, 164, 255);
+    background-color: rgb(0, 1, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 2px solid magenta;
+    cursor: pointer;
+}
+
+.val {
+    font-size: 25px;
+    color: coral;
+}
